@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF3468</color>
+    <color name="colorPrimaryDark">#FF3468</color>
+    <color name="colorAccent">#FF3468</color>
+
+    <color name="theme_black_menu">#232222</color>
+    <color name="theme_default_menu">#007e19</color>
+
+    <color name="theme_black_actionbar">#232222</color>
+    <color name="theme_default_actionbar">#FF3468</color>
+
+    <color name="theme_black_item_tag">#5e5e83</color>
+    <color name="theme_default_item_tag">#5e5e83</color>
+</resources>

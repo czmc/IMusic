@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="唐诗三百首栏目收录了包括:草、长恨歌、后宫词、暮江吟、问刘十九、白雪歌送武判官归京、逢入京使、奉和中书舍人"
+        android:textColor="#000000"
+        android:textSize="@dimen/textSize" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/msg_dialog_btn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_state"
+            android:clickable="true"
+            android:paddingBottom="8dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="8dp"
+            android:text="按键2"
+            android:textColor="#122e53"
+            android:textSize="@dimen/textSize" />
+
+        <TextView
+            android:id="@+id/msg_dialog_btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/msg_dialog_btn_right"
+            android:background="@drawable/btn_state"
+            android:clickable="true"
+            android:paddingBottom="8dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="8dp"
+            android:text="按键1"
+            android:textColor="#122e53"
+            android:textSize="@dimen/textSize" />
+    </RelativeLayout>
+
+
+</LinearLayout>

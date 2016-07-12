@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_local_music"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/item_local_music" />
+        <item
+            android:id="@+id/nav_favourite_music"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/item_music_list" />
+        <item
+            android:id="@+id/nav_net_music"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/item_network_music" />
+        <item
+            android:id="@+id/nav_download_music"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/item_download_music" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="关于" />
+    </group>
+    <!--<item android:title="setting">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

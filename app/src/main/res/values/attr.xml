@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  自定义圆形  图标 -->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <!--  材料布局点击水纹效果 -->
+    <declare-styleable name="MaterialLayout">
+        <attr name="alpha" format="integer" />
+        <attr name="alpha_step" format="integer" />
+        <attr name="framerate" format="integer" />
+        <attr name="duration" format="integer" />
+        <attr name="circlecolor" format="color" />
+        <attr name="scale" format="float" />
+    </declare-styleable>
+
+</resources>

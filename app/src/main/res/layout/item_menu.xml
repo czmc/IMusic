@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/menu_height"
+    android:background="#eeeeee"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="2dp"
+    android:visibility="gone"
+    >
+
+    <TextView
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_state"
+        android:clickable="true"
+        android:padding="10dp"
+        android:text="删除"
+        android:textColor="#ff282f" />
+
+
+    <TextView
+        android:id="@+id/remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_state"
+        android:clickable="true"
+        android:padding="10dp"
+        android:text="移出列表"
+        android:textColor="#8493c2" />
+</LinearLayout>
